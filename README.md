@@ -17,3 +17,19 @@ Verum operates on a Node-Based federated & decentralised architecture: anyone ca
 At this point, the Node takes over - for a time. The message is added to persistent data store (in JSON), encrypted (as the Node, if all went well, will not be able to decrypt it), bound to the recipient's ID. When the Recipient's client pings the Node, requesting any new messages, all the encrypted messages bound to their ID will be sent to them, decrypted by the recipient. All compliant Nodes are then instructed to remove the data from the persistent JSON data store, meaning only the recipient (and the sender, if they saved the message) have copies of the message.
 
 An additional feature of Verum is that messages are only saved if you **explicitly** request them to be (and encrypted at rest). If you don't, the messages will only be placed in Volatile Memory, meaning that they will be irrevocably lost if you close the application. This behaviour can, of course, be toggled off, but is recommended for _true secrets_ (Edward Snowden, we're looking at you).
+
+## Verum Nodes
+
+Verum Nodes are incredibly easy to set up: you could do it yourself! [Get set up here](http://github.com/freechat-project/Verum-Server)
+
+Otherwise, if you'd rather use an existing one, you could search the internet for one or use mine: `node.verum.damianheaton.com` (just pass this as the Node address to your client).
+
+Please be aware that this Node restarts and automatically updates at Midnight each day. It could also be a good idea to [follow my Twitter](https://twitter.com/Scratso) as I'll likely post any issues that I'm aware of with the service there.
+
+Usual disclaimers apply (service not always guaranteed, yada yada. See the GNU AGPL).
+
+## Verum Clients
+
+Currently, there aren't actually any consumer-ready Verum clients (the Node infrastructure and the super-easy-to-use module came first). If you're a user who's interested in Verum, how about [following me on Twitter](https://twitter.com/Scratso) for updates on Verum's overall progress.
+
+Or, if you're a developer, perhaps you'd be interested in diving in and building a client? If so, great! Almost everything you'll need is available [here](https://github.com/freechat-project/Verum-Backend), and we have [an NPM package](https://npmjs.org/~scratso/verum).
