@@ -1,4 +1,6 @@
 # Verum
+
+[![Join the chat at https://gitter.im/freechat-project/Verum](https://badges.gitter.im/freechat-project/Verum.svg)](https://gitter.im/freechat-project/Verum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Federated, volatile chat function (for the super secure).
 
 **Notice: Verum is _very_ early in development, and thus this ReadMe is under development (along with Verum and its Server counterpart).**
