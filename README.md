@@ -30,6 +30,12 @@ Usual disclaimers apply (service not always guaranteed, yada yada. See the GNU A
 
 ## Verum Clients
 
-Currently, there aren't actually any consumer-ready Verum clients (the Node infrastructure and the super-easy-to-use module came first). If you're a user who's interested in Verum, how about [following me on Twitter](https://twitter.com/Scratso) for updates on Verum's overall progress.
+### Command line
+
+A command-line client is available for Linux in a Snap package! [Check it out](http://cli.verum.damianheaton.com)
+
+### GUI Clients
+
+Currently, there aren't actually any consumer-ready GUI Verum clients (the Node infrastructure and the super-easy-to-use module came first). If you're a user who's interested in Verum, how about [following me on Twitter](https://twitter.com/Scratso) for updates on Verum's overall progress.
 
 Or, if you're a developer, perhaps you'd be interested in diving in and building a client? If so, great! Almost everything you'll need is available [here](https://github.com/freechat-project/Verum-Backend), and we have [an NPM package](https://npmjs.org/~scratso/verum).
